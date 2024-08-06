@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #ffdde1;
+            background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1);
+            background: linear-gradient(to right, #ee9ca7, #ffdde1);
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        p {
+            font-size: 1.5em;
+            color: #666;
+        }
+        .heart {
+            color: red;
+            font-size: 5em;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .music {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quer namorar comigo, Ana Luiza?</h1>
+        <div class="heart">&hearts;</div>
+        <p>Te amo cacheada</p>
+        <div class="music">
+            <a href="https://www.youtube.com/watch?v=v-byYFbreME" target="_blank">
+                Clica aqui amor
+            </a>
+        </div>
+    </div>
+</body>
+</html>
